@@ -34,12 +34,12 @@ import { useState } from 'react';
           <Link href="/about" className="text-white text-xl hover:text-gray-300">About</Link>
           <Link href="/contact" className="text-white text-xl hover:text-gray-300">Contact</Link>
 
-         </div>
-         <Sheet>
+          </div>
+          <Sheet>
           <SheetTrigger onClick={toggleMenu} className='md:hidden'>
             <HiOutlineMenuAlt2 size={36} className="text-white"/>
-          </SheetTrigger>
-          {isOpen && (
+           </SheetTrigger>
+           {isOpen && (
             <SheetContent>
               <div className='flex flex-col space-y-8 items-center mt-6 font-medium text-2xl'>
                 <Link href="/" className='block text-black hover:text-gray-300'>Home</Link>

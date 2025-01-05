@@ -13,16 +13,16 @@ const Section = () => {
         </p>
         <div className='flex flex-col md:flex-row md:space-x-2'>
           <div className='relative group'>
-            <Image src="/nature1.jpg" alt='nature1' width={350} height={300}
+            <Image src="/blog/nature1.jpg" alt='nature1' width={350} height={300}
               className='w-full h-auto rounded-lg transition-transform duration-200 ease-in-out transform group-hover:scale-105' />
           </div>
           <div className='relative group'>
-            <Image src="/nature2.jpg" alt='nature2' width={300} height={300}
+            <Image src="/blog/nature2.jpg" alt='nature2' width={300} height={300}
               className='w-full h-auto rounded-lg transition-transform duration-200 ease-in-out transform group-hover:scale-110' />
           </div>
 
           <div className='relative group'>
-            <Image src="/nature3.jpg" alt='nature3' width={300} height={300}
+            <Image src="/blog/nature3.jpg" alt='nature3' width={300} height={300}
               className='w-full h-auto rounded-lg transition-transform duration-200 ease-in-out transform group-hover:scale-105' />
 
           </div>
